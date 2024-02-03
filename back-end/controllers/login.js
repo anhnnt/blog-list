@@ -10,7 +10,7 @@ loginRouter.post('/', async (request, response) => {
 
     if (!user) {
         console.log("no user")
-        return response.status(401).json({
+        return response.status(402).json({
             error: 'no valid user'
         })
     }
