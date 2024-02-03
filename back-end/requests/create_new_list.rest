@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFuaG5nIiwiaWQiOiI2NTRjY2E4OGEyZTA5N2NkY2I0YTU1YjQiLCJpYXQiOjE2OTk1Mzc1NjJ9.nsQyDjsVz8mZ5iASDMrRuDJCmPSUjNLLi5wWf-uxAnY
+
+{
+    "title": "Adding blog with token middleware test",
+    "author": "Admin1",
+    "url": "https://cloud.mongodb.com/v2/"
+}
