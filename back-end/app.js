@@ -15,6 +15,10 @@ if (process.env.NODE_ENV === 'test') {
   app.use('/api/testing', testingRouter)
 }
 
+const corsOption = {
+  origin: ['http://localhost:3003', 'https://blog-list-qrmraikzv-anh-nguyens-projects-eefa3467.vercel.app']
+};
+
 const middleware = require('./utils/middleware')
 
 mongoose.set('strictQuery', false)
